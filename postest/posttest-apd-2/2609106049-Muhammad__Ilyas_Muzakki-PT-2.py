@@ -11,7 +11,7 @@ total_pajak = int (total + pajak_gojek)
 euro = int (20441)
 total_euro = int (total_pajak /euro)
 banyak_data = len(harga_makanan)
-rata_rata = total_pajak / banyak_data
+rata_rata = int (total_pajak / banyak_data)
 nim = int (49)
 bolean = nim != rata_rata
 

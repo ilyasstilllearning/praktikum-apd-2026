@@ -44,4 +44,4 @@ if nama == nama_ilyas and nim == nim_ilyas:
     else:
         print ("Pilihan hanya tersedia 1-4")
 else:
-    print ("Nama / Nim salah, silahkan ulangi")
+    print ("Nama / Nim salah, silahkan ulangi!")

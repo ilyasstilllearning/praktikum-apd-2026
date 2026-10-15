@@ -16,12 +16,12 @@ print("FORM LOGIN")
 print()
 
 while True:
-    username = input("Masukkan username anda: ").lower()
-    password = input("Masukkan password anda: ")
+    username = input("Masukan username anda: ").lower()
+    password = input("Masukan password anda: ")
 
     if username == "" or password == "":
         print("Username dan password tidak boleh kosong!")
-        print()
+        print ()
     elif username == username_benar and password == password_benar:
         print("Login berhasil!")
         print()

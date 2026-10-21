@@ -189,7 +189,7 @@ while True:
                                     if ada_reservasi:
                                         print ("Jadwal tidak dapat dihapus karena masih memiliki reservasi")
                                     else:
-                                        konfirmasi = input ("Yakin ingin menghapus jadwal? (y/n): ").lower()
+                                        konfirmasi = input ("Yakin ingin menghapus? (y/n): ").lower()
                                         if konfirmasi == "y":
                                             jadwal_penerbangan.pop(indeks)
                                             print ("Jadwal penerbangan berhasil dihapus")

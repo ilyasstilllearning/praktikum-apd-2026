@@ -116,7 +116,7 @@ while True:
                                 print ("============================================================================")
                                 ubah = input ("Masukan kode penerbangan yang ingin diubah: ").strip().upper()
                                 if ubah not in jadwal_penerbangan:
-                                    print ("Kode penerbangan tidak ditemukan")
+                                    print ("Kode penerbangan tidak ditemukan")                                                                                                                                                                    
                                 else:
                                     print ("Data penerbangan saat ini:")
                                     print ("Kode penerbangan :", ubah)
